@@ -1,0 +1,84 @@
+.App {
+  background-color:rgb(255, 255, 255);
+}
+
+.applogo {
+  padding-top: 40px;
+  padding-left: 40px;
+  width: 200px;
+}
+
+.fronttitle {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  color:darkblue;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.font-link{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.font-linktwo {
+  font-family: 'Urbanist', sans-serif;
+}
+
+.column {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.search {
+  border-radius: 30%;
+  padding: 5px 30px 5px 30px;
+  color: teal;
+  background-color: rgba(241, 233, 233, 0.281);
+  font-size: 10pt;
+  margin: 8px 0px 5px 0px;
+  border: 1px solid teal;
+}
+
+.Create {
+  border-color: rgba(48, 138, 23, 0.726);
+  border-width: 1px;
+  color: azure;
+  background-color: rgb(115, 148, 209);
+  padding: 4px 10px;
+  font-size: 10pt;
+  position: relative;
+  box-shadow: 5px 5px 0px 0px rgba(8, 10, 1, 0.99);
+  }
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.deletePost {
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.author {
+  margin-bottom: 30px;
+}
+
+.deletePost {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.editPost {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
