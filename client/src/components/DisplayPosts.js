@@ -21,7 +21,8 @@ const DisplayAll = () => {
     <div className="container">
         <div className="font-link">
         <div className="col-12">
-            <h5 className="fronttitle">Welcome to the Blog! Sit back, relax, and enjoy the stories our patrons have compiled for you!</h5>
+            <h1 className="fronttitle">Welcome to the Architecture Aficionado Blog</h1>
+            <h5 className="frontrtitle">Sit back, relax, and enjoy the stories our patrons have compiled for you!</h5>
             <Link style={{ width: "100%", display: 'flex', justifyContent: 'center', marginBottom: '30px' }} to="/posts/new">
                 <button className="Create"> Add A New Post to the blog </button>
             </Link>

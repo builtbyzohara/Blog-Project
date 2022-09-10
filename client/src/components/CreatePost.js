@@ -64,7 +64,7 @@ const PostForm = () => {
                 {errors.description ? <p>{errors.description.message}</p> : null}
 
                 <label htmlFor="content">Content:</label>
-                <textarea name="content" cols="40" rows="5"
+                <textarea name="content" cols="40" rows="25"
                 type="textarea"
                 className="form-control"
                 placeholder="Write your blog post here"

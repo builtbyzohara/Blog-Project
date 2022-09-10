@@ -10,7 +10,7 @@ import companyLogo from './logo/logo_interiorarchitects.png';
 function App() {
   return (
     <div className="App">
-      <img className="applogo" src={companyLogo} alt="Company Logo Is Usually Here.. we apologize for the mishap"/>
+      <img className="applogo" src={companyLogo} alt="Blog Logo is usually here.. we apologize for the mishap"/>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<DisplayPosts />} />

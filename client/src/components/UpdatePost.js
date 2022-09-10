@@ -76,7 +76,7 @@ const EditPost = (props) => {
 
                     <label htmlFor="description">Description: </label>
                     <br></br>
-                    <input cols="40" rows="5"
+                    <textarea name="description" cols="40" rows="5"
                         type="textarea"
                         id="description"
                         className="form-control"
@@ -88,7 +88,7 @@ const EditPost = (props) => {
 
                     <label htmlFor="content">Content: </label>
                     <br></br>
-                    <input
+                    <textarea
                         type="textarea"
                         cols="40" 
                         rows="25"

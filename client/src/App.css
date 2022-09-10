@@ -9,7 +9,15 @@
 }
 
 .fronttitle {
-  padding: 50px 0px;
+  padding: 50px 0px 5px;
+  display: flex;
+  justify-content: center;
+  color:darkblue;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.frontrtitle {
+  padding: 0px;
   display: flex;
   justify-content: center;
   color:darkblue;
