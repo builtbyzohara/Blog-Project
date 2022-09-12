@@ -42,7 +42,7 @@ const DisplayAll = () => {
                     <tr key={post._id}>
                     <td>{post.title}</td>
                     <td>{post.author}</td>
-                    <td>{moment(post.createdAt).format('MMMM Do YYYY, h:mm:ss a')}</td>
+                    <td>{moment(post.createdAt).format('MMMM Do YYYY, h:mm a')}</td>
                     <td className="links">
                         <Link to={`/posts/${post._id}`}>
                             <button className="Create"> View Blog Post </button>
