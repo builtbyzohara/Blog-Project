@@ -41,7 +41,7 @@ const EditPost = (props) => {
 
     return (
     <div className="container">
-        <Link style={{ width: "100%", display: 'flex', justifyContent: 'end' }} to="/">Back to home</Link>
+        <Link style={{ width: "100%", display: 'flex', justifyContent: 'end' }} to="/">Back to all posts</Link>
         <h3 className="fronttitle">Edit {postTitle}</h3>
         <div className="bodyform">
         <div className="col-12">

@@ -62,11 +62,6 @@
 }
 
 
-
-.deletePost {
-  align-items: center;
-}
-
 .title {
   margin-bottom: 15px;
 }
@@ -82,11 +77,20 @@
 .deletePost {
   margin-top: 30px;
   text-align: center;
+  align-items: center;
+  display: flex;
   font-family: 'Nanum Gothic', sans-serif;
+  margin: 0 auto;
 }
 
 .editPost {
   margin-top: 30px;
   text-align: center;
   font-family: 'Nanum Gothic', sans-serif;
+}
+
+#deleteButton {
+  align-items: center;
+  justify-content: 'center';
+  display: 'flex';
 }

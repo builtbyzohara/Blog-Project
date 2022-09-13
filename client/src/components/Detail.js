@@ -55,19 +55,12 @@ const Detail = (props) => {
             <span> 
             <h1 className='title' style={{justifyContent: 'center', display: 'flex', marginTop: '28px' }} >{post.title}</h1>
             <h6 className='author' style={{justifyContent: 'center', display: 'flex'}}> Authored by {post.author} on {moment(post.createdAt).format('MMMM Do YYYY')}  </h6>
-            <h5 className='description' style={{justifyContent: 'center', display: 'flex'}}>{post.description} </h5>
+            <h5 className='description' style={{justifyContent: 'center', textAlign: 'center', display: 'flex'}}>{post.description} </h5>
             </span>
             <hr/>
             <p>
             <td>{post.content}</td>
             </p>
-            {/* <table className='detailtable'>
-
-                <tr>
-                    <th>Content:</th>
-                    <td>{post.content}</td>
-                </tr>
-            </table> */}
             </span>
             <span className='deletePost'>
                 <button
